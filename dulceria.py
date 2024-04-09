@@ -22,7 +22,7 @@ compra["nombre"] = nombre
 
 producto = st.text_input('¿Qué vas a comprar? ')
 compra["producto"] = producto
-precio = df.loc[df['producto'] == producto,'precio'].values[0]
+precio = df.loc[df['producto'] == producto,'precio']
 
 image = Image.open(str(producto)+'.png')
 st.image(image)
