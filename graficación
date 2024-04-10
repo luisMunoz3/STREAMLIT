@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 
 #Gráfica de barras
 st.title('Gráfica de un dataframe: Selección de datos por los usuarios')
-url = 'https://raw.githubusercontent.com/LilianaC/Pandas/master/Fifa%2023%20Fut%20Players.csv'
+url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT5rOHwOYb5BJOZNmjktyRXvsg8Xnx4jiAVL6aE35rWpDpLKyBvMA0ityVtoFytMZ1cc9K4DMebb_uU/pub?gid=782515809&single=true&output=csv'
 df= pd.read_csv(url)
 
 st.title('Gráfica de barras')
